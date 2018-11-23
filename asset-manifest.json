@@ -1,14 +1,14 @@
 {
-  "main.css": "/test/static/css/main.c77d1435.chunk.css",
-  "main.js": "/test/static/js/main.598d3737.chunk.js",
-  "main.js.map": "/test/static/js/main.598d3737.chunk.js.map",
-  "static/js/1.2dd891c4.chunk.js": "/test/static/js/1.2dd891c4.chunk.js",
-  "static/js/1.2dd891c4.chunk.js.map": "/test/static/js/1.2dd891c4.chunk.js.map",
+  "main.css": "/test/static/css/main.c37cf0b4.chunk.css",
+  "main.js": "/test/static/js/main.f9f11746.chunk.js",
+  "main.js.map": "/test/static/js/main.f9f11746.chunk.js.map",
+  "static/js/1.c05a6ea1.chunk.js": "/test/static/js/1.c05a6ea1.chunk.js",
+  "static/js/1.c05a6ea1.chunk.js.map": "/test/static/js/1.c05a6ea1.chunk.js.map",
   "runtime~main.js": "/test/static/js/runtime~main.5ad1e219.js",
   "runtime~main.js.map": "/test/static/js/runtime~main.5ad1e219.js.map",
-  "static/media/logo.svg": "/test/static/media/logo.5d5d9eef.svg",
-  "static/css/main.c77d1435.chunk.css.map": "/test/static/css/main.c77d1435.chunk.css.map",
+  "static/media/del.png": "/test/static/media/del.4397d172.png",
+  "static/css/main.c37cf0b4.chunk.css.map": "/test/static/css/main.c37cf0b4.chunk.css.map",
   "index.html": "/test/index.html",
-  "precache-manifest.356eb82138b808557d572c5d5e58841d.js": "/test/precache-manifest.356eb82138b808557d572c5d5e58841d.js",
+  "precache-manifest.65536493b968fba7eeab4d72bf8620a7.js": "/test/precache-manifest.65536493b968fba7eeab4d72bf8620a7.js",
   "service-worker.js": "/test/service-worker.js"
 }
