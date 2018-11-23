@@ -1,13 +1,14 @@
 {
-  "main.css": "/test/static/css/main.f5e916d7.chunk.css",
-  "main.js": "/test/static/js/main.55e6027c.chunk.js",
-  "main.js.map": "/test/static/js/main.55e6027c.chunk.js.map",
-  "static/js/1.274099a1.chunk.js": "/test/static/js/1.274099a1.chunk.js",
-  "static/js/1.274099a1.chunk.js.map": "/test/static/js/1.274099a1.chunk.js.map",
+  "main.css": "/test/static/css/main.04704adc.chunk.css",
+  "main.js": "/test/static/js/main.78546b35.chunk.js",
+  "main.js.map": "/test/static/js/main.78546b35.chunk.js.map",
+  "static/js/1.6d3aaaa3.chunk.js": "/test/static/js/1.6d3aaaa3.chunk.js",
+  "static/js/1.6d3aaaa3.chunk.js.map": "/test/static/js/1.6d3aaaa3.chunk.js.map",
   "runtime~main.js": "/test/static/js/runtime~main.5ad1e219.js",
   "runtime~main.js.map": "/test/static/js/runtime~main.5ad1e219.js.map",
-  "static/css/main.f5e916d7.chunk.css.map": "/test/static/css/main.f5e916d7.chunk.css.map",
+  "static/media/del.png": "/test/static/media/del.4397d172.png",
+  "static/css/main.04704adc.chunk.css.map": "/test/static/css/main.04704adc.chunk.css.map",
   "index.html": "/test/index.html",
-  "precache-manifest.b853c261b79aaab1e54aab13270e92e5.js": "/test/precache-manifest.b853c261b79aaab1e54aab13270e92e5.js",
+  "precache-manifest.13e76e9949d5d8498719f5a93bd7dd9f.js": "/test/precache-manifest.13e76e9949d5d8498719f5a93bd7dd9f.js",
   "service-worker.js": "/test/service-worker.js"
 }
