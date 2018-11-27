@@ -1,12 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+ import React from 'react'
+import ReactDOM from 'react-dom'
+import {createStore, applyMiddleware} from 'redux'
+import {composeWithDevTools} from 'redux-devtools-extension'
+import thunk from 'redux-thunk'
+ import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {Provider} from 'react-redux'
+import './main.css'
+import reducers from './reducers/index.js'
+import Phone from './containers/item/index.js'
+import Phones from './containers/items/index.js'
+import Basket from './containers/basket/index.js'
+import * as serviceWorker from './serviceWorker.js'
+const store = createStore(reducers, composeWithDevTools(
+    applyMiddleware(thunk)
+))
 
-ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
+ ReactDOM.render(
+    <Provider store={store}>
+        <Router basename={process.env.PUBLIC_URL}>
+            <div>
+                <Route exact path='/' component={Phones} />
+                <Route exact path='/categories/:id' component={Phones}/>
+                <Route exact path='/phones/:id' component={Phone} />
+                <Route exact path='/basket' component ={Basket}/>
+            </div>
+        </Router>
+    </Provider>,
+    document.getElementById('root')
+);
 serviceWorker.unregister();
